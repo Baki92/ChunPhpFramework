@@ -14,7 +14,7 @@ class ModelManagerBase extends BaseDatabaseManager
     {
         ModelManagerBase::$model_manager=new ModelManagerBase();
     }
-    public static function selectQuery($out_put_fields,$table,$where_clauses)
+    public static function selectQuery($out_put_fields,$table,$where_clauses,$other_clauses="")
     {
         $query_string="Select ";
         foreach($out_put_fields as $out_put_field)
@@ -32,6 +32,7 @@ class ModelManagerBase extends BaseDatabaseManager
         {
             $query_string=$query_string.$where_clause." ";
         }
+        $query_string=$query_string." ".$other_clauses;
         ModelManagerBase::$base_database_manager->queryFromDb($query_string,$table);
     }
     public static function updateQuery($set_fields,$table,$where_clauses)

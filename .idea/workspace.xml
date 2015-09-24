@@ -25,11 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controls/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5730337" vertical-offset="0" max-vertical-offset="890">
-              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+            <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="595">
+              <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControlManagerBase.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ChunCore/ControlManagers/ControlManagerBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28651685" vertical-offset="0" max-vertical-offset="1666">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Index/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="544">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -38,11 +58,11 @@
       <file leaf-file-name="ModelManagerBase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChunCore/ModelManagers/ModelManagerBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.076923" vertical-offset="470" max-vertical-offset="1666">
-              <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+            <state vertical-scroll-proportion="-15.269231" vertical-offset="198" max-vertical-offset="1683">
+              <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
               <folding>
-                <marker date="1443122511551" expanded="true" signature="2061:2073" placeholder="Delete From ..." />
-                <marker date="1443122511551" expanded="true" signature="2507:2531" placeholder="Insert Into ..." />
+                <marker date="1443124125702" expanded="true" signature="2135:2147" placeholder="Delete From ..." />
+                <marker date="1443124125702" expanded="true" signature="2581:2605" placeholder="Insert Into ..." />
               </folding>
             </state>
           </provider>
@@ -100,13 +120,13 @@
         <option value="$PROJECT_DIR$/ViewManagers/ViewManagerBase.php" />
         <option value="$PROJECT_DIR$/ChunCore/ControlManagers/ControlManagerBase.php" />
         <option value="$PROJECT_DIR$/ChunCore/ViewManagers/ViewManagerBase.php" />
-        <option value="$PROJECT_DIR$/Views/Index/index.php" />
         <option value="$PROJECT_DIR$/ChunCore/ChunConfigurator/ChunIncluder.php" />
         <option value="$PROJECT_DIR$/Models/TestModel.php" />
         <option value="$PROJECT_DIR$/ChunCore/ChunConfigurator/ChunConfigurator.php" />
         <option value="$PROJECT_DIR$/ChunCore/ModelManagers/DatabaseManagers/BaseDatabaseManager.php" />
         <option value="$PROJECT_DIR$/ChunCore/ModelManagers/ModelManagerBase.php" />
         <option value="$PROJECT_DIR$/Controls/IndexController.php" />
+        <option value="$PROJECT_DIR$/Views/Index/index.php" />
       </list>
     </option>
   </component>
@@ -208,6 +228,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ViewManagers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChunPhpFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChunPhpFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChunCore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,7 +376,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1060" extended-state="7" />
+    <frame x="-4" y="-4" width="1928" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,22 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Index/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03820225" vertical-offset="0" max-vertical-offset="890">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChunCore/ControlManagers/ControlManagerBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ChunCore/ViewManagers/ViewManagerBase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31235954" vertical-offset="164" max-vertical-offset="1105">
@@ -476,19 +494,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ChunCore/ModelManagers/ModelManagerBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.076923" vertical-offset="470" max-vertical-offset="1666">
-          <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+        <state vertical-scroll-proportion="-15.269231" vertical-offset="198" max-vertical-offset="1683">
+          <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
           <folding>
-            <marker date="1443122511551" expanded="true" signature="2061:2073" placeholder="Delete From ..." />
-            <marker date="1443122511551" expanded="true" signature="2507:2531" placeholder="Insert Into ..." />
+            <marker date="1443124125702" expanded="true" signature="2135:2147" placeholder="Delete From ..." />
+            <marker date="1443124125702" expanded="true" signature="2581:2605" placeholder="Insert Into ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="544">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controls/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5730337" vertical-offset="0" max-vertical-offset="890">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="595">
+          <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChunCore/ControlManagers/ControlManagerBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28651685" vertical-offset="0" max-vertical-offset="1666">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>

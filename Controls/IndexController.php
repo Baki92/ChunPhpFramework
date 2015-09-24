@@ -16,22 +16,13 @@ class IndexController extends ControlManagerBase
         parent::__construct($this->class_name);
         $this->callControlFunction();
     }
-    protected function testWriteOut($text="")
-    {
-        echo $text;
-    }
     protected function index($parameter="")
     {
         ModelManagerBase::insertQuery(array("EmpFirstName","EmpLastName","EmpPhone","EmpEmail"),"chuntesttable",array("Bakis","Baki","3346","baki@baki.com"));
-        ModelManagerBase::selectQuery(array("EmpFirstName","EmpLastName"),"chuntesttable",array("EmpLastName='Baki'"));
-        var_dump(ViewManagerBase::$MODELS["chuntesttable"]);
         ModelManagerBase::deleteQuery("chuntesttable",array("EmpLastName='Baki'"));
-        ModelManagerBase::updateQuery(array("EmpFirstName='OH CUHUN'","EmpLastName='LASTCHUB'"),"chuntesttable",array("id=1"));
-        ModelManagerBase::selectQuery(array("EmpFirstName","EmpLastName"),"chuntesttable",array("EmpLastName='Baki'"));
-        var_dump(ViewManagerBase::$MODELS["chuntesttable"]);
+        ModelManagerBase::updateQuery(array("EmpFirstName='CUHUN'","EmpLastName='Framework'"),"chuntesttable",array("id=1"));
 
-        ViewManagerBase::$MODELS["say"]=$parameter;
-
+        ModelManagerBase::selectQuery(array("EmpFirstName","EmpLastName","EmpPhone","EmpEmail"),"chuntesttable",array(),"Order by EmpPhone asc");
         ViewManagerBase::initRender($this->class_name);
     }
 }
